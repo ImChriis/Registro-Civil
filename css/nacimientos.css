@@ -1,0 +1,188 @@
+body{
+    background-color: #2d3142;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 16px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffbc42;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    color: #ffbc42;
+}
+
+.links a:hover{
+    color: #e09f3e;
+};
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: left;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 3vh;
+    border: transparent;
+    border-bottom: 1px solid #ffbc42;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+select{
+    height: 3vh;
+    margin-top: 3px;
+    border: transparent;
+    border-bottom: 1px solid #ffbc42;
+    background-color: transparent;
+    color: white;
+}
+
+option{
+    color: white;
+    background-color: #2d3142;
+    border: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.esposo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #ffbc42;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.infoPrincipal{
+    display: flex;
+    gap: 20px;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apellido{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cedula{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.genero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoSecundaria{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.matrimonioInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.fecha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.lugar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    background-color: #ffbc42;
+    color: #2d3142;
+    border: transparent;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    height: 5vh;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #e09f3e;
+}
+
+
